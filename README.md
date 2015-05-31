@@ -27,7 +27,7 @@ layouts:
 ---
 ```
 
-**Note**: Jekyll Layouts creates additional pages using the provided extensions and layouts, it does not notify the original page.
+**Note**: Jekyll Layouts creates additional pages using the provided extensions and layouts, it does not modify the original page.
 
 ## Configuration
 
