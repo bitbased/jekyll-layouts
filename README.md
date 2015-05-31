@@ -22,8 +22,8 @@ In any page, post, or collection, use `layouts` and a `extension: layout` value,
 ```markdown
 ---
 layouts:
-  json: json-post
-  md: markdown-post
+  json: json-post-layout
+  md: markdown-post-layout
 ---
 ```
 
@@ -73,7 +73,7 @@ defaults:
         md: markdown-post-layout
 ```
 
-_layouts/markdown-post-layout.json
+_layouts/markdown-post-layout.md
 ```markdown
 # {{ page.title }}
 
